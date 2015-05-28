@@ -17,6 +17,12 @@
   },
   "homepage": "https://github.com/hideyuki/bitcoin-wallet",
   "dependencies": {
-    "bitcoinjs-lib": "^1.5.7"
+    "bitcoinjs-lib": "git://github.com/bitcoinjs/bitcoinjs-lib.git",
+    "ect": "^0.5.9",
+    "express": "^4.12.4"
+  },
+  "devDependencies": {
+    "gulp": "^3.8.11",
+    "gulp-nodemon": "^2.0.3"
   }
 }

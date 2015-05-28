@@ -1,0 +1,12 @@
+body {
+  background: #FEFEFE;
+  font-size: 10px;
+}
+
+#balance_table {
+  border-collapse: collapse;
+}
+
+#balance_table th {
+  background-color: #cccccc;
+}

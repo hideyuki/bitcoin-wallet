@@ -1,0 +1,52 @@
+<% extend 'layout' %>
+
+<h1>BitCoin Wallet</h1>
+
+
+<h2>Setup your key</h2>
+<p>
+  <input id="generate" type="button" value="Generate new key" />
+</p>
+
+<p>or</p>
+
+<p>
+  <input id="your_private_key" type="text">
+  <input id="exist_private_key" type="button" value="Use this!" />
+</p>
+
+<h2>Your Information</h2>
+<p>
+  Private Key: <span id="private_key" />
+</p>
+<p>
+  Address: <span id="address" />
+</p>
+
+<h2>Wallet functions</h2>
+
+<h3>Balance</h3>
+
+<input id="get_your_balance" type="button" value="Get your balance" />
+
+<p>
+  <table id="balance_table" border=1>
+    <tr>
+      <th>No.</th>
+      <th>BTC</th>
+      <th>サトシ</th>
+      <th>取引ID</th>
+    </tr>
+  </table>
+</p>
+
+<h3>Send BTC</h3>
+<p>
+  送り先のAddress
+  <input id="dest_address" type="text" value="1KQjmyZs9XhH5pcatKY2ieQp8y5XN6DE6v">
+</p>
+<p>
+  金額(サトシ)
+  <input id="satoshi" type="text" value="1000">
+</p>
+<input id="send_btc" type="button" value="Send BTC" />

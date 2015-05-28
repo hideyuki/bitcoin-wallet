@@ -1,0 +1,43 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/Users/hide/.nvm/v0.11.14/bin/node',
+1 verbose cli   '/Users/hide/.nvm/v0.11.14/bin/npm',
+1 verbose cli   'install' ]
+2 info using npm@2.0.0
+3 info using node@v0.11.14
+4 verbose readDependencies using package.json deps
+5 verbose install where, deps [ '/Users/hide/src/github.com/hideyuki/bitcoin-wallet',
+5 verbose install   [ 'bitcoinjs-lib', 'ect', 'express', 'gulp', 'gulp-nodemon' ] ]
+6 info preinstall bitcoin-wallet@1.0.0
+7 verbose readDependencies using package.json deps
+8 verbose already installed skipping gulp-nodemon@^2.0.3 /Users/hide/src/github.com/hideyuki/bitcoin-wallet
+9 verbose cache add [ 'bitcoinjs-lib@git@github.com:bitcoinjs/bitcoinjs-lib.git',
+9 verbose cache add   null ]
+10 verbose cache add spec="bitcoinjs-lib@git@github.com:bitcoinjs/bitcoinjs-lib.git" args=["bitcoinjs-lib@git@github.com:bitcoinjs/bitcoinjs-lib.git",null]
+11 verbose parsed spec { raw: 'bitcoinjs-lib@git@github.com:bitcoinjs/bitcoinjs-lib.git',
+11 verbose parsed spec   scope: null,
+11 verbose parsed spec   name: 'bitcoinjs-lib',
+11 verbose parsed spec   rawSpec: 'git@github.com:bitcoinjs/bitcoinjs-lib.git',
+11 verbose parsed spec   spec: '/Users/hide/src/github.com/hideyuki/bitcoin-wallet/git@github.com:bitcoinjs/bitcoinjs-lib.git',
+11 verbose parsed spec   type: 'local' }
+12 verbose already installed skipping ect@^0.5.9 /Users/hide/src/github.com/hideyuki/bitcoin-wallet
+13 verbose already installed skipping express@^4.12.4 /Users/hide/src/github.com/hideyuki/bitcoin-wallet
+14 verbose already installed skipping gulp@^3.8.11 /Users/hide/src/github.com/hideyuki/bitcoin-wallet
+15 verbose parsed spec { raw: '/Users/hide/src/github.com/hideyuki/bitcoin-wallet/git@github.com:bitcoinjs/bitcoinjs-lib.git',
+15 verbose parsed spec   scope: null,
+15 verbose parsed spec   name: null,
+15 verbose parsed spec   rawSpec: '/Users/hide/src/github.com/hideyuki/bitcoin-wallet/git@github.com:bitcoinjs/bitcoinjs-lib.git',
+15 verbose parsed spec   spec: '/Users/hide/src/github.com/hideyuki/bitcoin-wallet/git@github.com:bitcoinjs/bitcoinjs-lib.git',
+15 verbose parsed spec   type: 'local' }
+16 verbose stack Error: couldn't figure out how to install /Users/hide/src/github.com/hideyuki/bitcoin-wallet/git@github.com:bitcoinjs/bitcoinjs-lib.git
+16 verbose stack     at addNonLocal (/Users/hide/.nvm/v0.11.14/lib/node_modules/npm/lib/cache.js:309:12)
+16 verbose stack     at /Users/hide/.nvm/v0.11.14/lib/node_modules/npm/lib/cache.js:278:20
+16 verbose stack     at Object.oncomplete (evalmachine.<anonymous>:93:15)
+17 verbose cwd /Users/hide/src/github.com/hideyuki/bitcoin-wallet
+18 error Darwin 14.3.0
+19 error argv "/Users/hide/.nvm/v0.11.14/bin/node" "/Users/hide/.nvm/v0.11.14/bin/npm" "install"
+20 error node v0.11.14
+21 error npm  v2.0.0
+22 error couldn't figure out how to install /Users/hide/src/github.com/hideyuki/bitcoin-wallet/git@github.com:bitcoinjs/bitcoinjs-lib.git
+23 error If you need help, you may report this error at:
+23 error     <http://github.com/npm/npm/issues>
+24 verbose exit [ 1, true ]
